@@ -4,8 +4,33 @@
   "description": "Start kit with webpack",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack-dev-server --mode development --open",
+    "test": "mocha --require babel-polyfill --require babel-register"
   },
   "author": "SGKuksov",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "favicons-webpack-plugin": "0.0.9",
+    "html-webpack-plugin": "^3.2.0",
+    "mocha": "^6.0.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7",
+    "script-ext-html-webpack-plugin": "^2.1.3"
+  }
 }
