@@ -1,0 +1,11 @@
+{
+  "name": "start_kit",
+  "version": "1.0.0",
+  "description": "Start kit with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "SGKuksov",
+  "license": "MIT"
+}
