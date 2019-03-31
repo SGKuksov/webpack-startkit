@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('../fonts/font.woff2') format('woff2'), 
+  url('../fonts/font.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.block {
+  background-color: #fff;
+
+  &__item {
+    color: #000;
+  }
+}
+
+body {
+  background-color: #fff;
+}
