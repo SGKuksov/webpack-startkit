@@ -10,7 +10,7 @@ module.exports = {
     app: './src/assets/js/app.js'
   },
   output: {
-    filename: 'js/[name].[contenthash].js',
+    filename: 'js/[name].[hash].js',
     path: path.resolve(__dirname, '../dist')
   },
   rules: {

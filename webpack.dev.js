@@ -12,9 +12,17 @@ module.exports = merge(common, {
     contentBase: [
       path.join(__dirname, 'dist'),
       path.join(__dirname, 'scr/assets'),
+      path.join(__dirname, 'scr/assets'),
     ],
     port: 3000,
-    overlay: true
+    // useLocalIp: true,
+    overlay: {
+      warnings: false,
+      errors: true
+    },
+    hot: true,
+    noInfo: true,
+    open: true
   },
   plugins: [
     new MiniCssExtractPlugin({

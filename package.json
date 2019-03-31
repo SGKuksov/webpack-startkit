@@ -4,7 +4,7 @@
   "description": "Start kit with webpack",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run build && webpack-dev-server --open --config webpack.dev.js --progress  --color",
+    "dev": "webpack-dev-server --config webpack.dev.js --progress --color ",
     "build": "webpack --config webpack.prod.js --progress --color",
     "eslint": "eslint --fix --ext .js --ignore-path .gitignore .",
     "stylelint": "stylelint --fix \"src/scss/**/*.scss\" --syntax=scss",

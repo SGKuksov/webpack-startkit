@@ -1,4 +1,10 @@
 import _ from 'lodash';
+import $ from 'jquery';
+import pageHeader from '../../blocks/page-header/page-header';
+
+pageHeader();
+
+$('.page-header');
 
 _.now();
 

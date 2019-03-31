@@ -2,10 +2,20 @@
 
 Based on https://habr.com/ru/post/350886/
 
+## Scripts
+
+```bash
+# Запустит dev server на http://localhost:3000/
+npm run dev
+
+# Соберет проект в продакшен режиме
+```
+
 ## Todo
 
 3. Добавить сборку стилей и путей
 4. Реализовать сборку блоков (pug, scss, js)
+5. Исправить слежение и загрузку файлов
 
 ## Plugins
 
